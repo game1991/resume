@@ -18,7 +18,7 @@
 		"email": "296813329@qq.com",
 		"mobile": "15527966819",
 		"github": "https://github.com/game1991",
-		"juejin": "https://juejin.cn/user/1943592291283309/posts",
+		"zhihu": "https://juejin.cn/user/1943592291283309/posts",
 		"workExpYear": "9年",
 		"workPlace": "武汉",
 		"positionTitle": "后端开发"
@@ -61,25 +61,28 @@
 				"2017.05",
 				"2020.03"
 			],
-			"work_desc": "1. 担任蚂蚁高管决策和管理协同产品 “数据作战室” 的前端负责人\r\n2. 负责蚂蚁敏捷 BI 产品 “DeepInsight” 的可视分析模块产品能力建设\n3. 数据可视化 AntV 团队核心成员，负责 G2、G2Plot 开源技术的建设"
+			"work_desc": "1.大型中台类产品研发 \r\n2. 独立负责开发微服务功能模块\n3. 协同其他部门服务间数据交互以及proto定义等，采用grpc同步调用以及rabbitmq异步消费等\n4. 熟悉Linux系统开发环境",
+			"dataIndex": 3
 		},
 		{
-			"company_name": "蚂蚁金服",
-			"department_name": "大数据部",
+			"company_name": "统信软件技术有限公司",
+			"department_name": "web研发部",
 			"work_time": [
-				"2017.06",
-				"2017.12"
+				"2020.03",
+				"2022.07"
 			],
-			"work_desc": "前端实习生。使用 React 参与开发多类数据产品的研发工作，同时也参与大型 BI 产品的重构工作，有良好的编码习惯。"
+			"work_desc": "后端工程师。使用 golang 参与开发多类web产品的研发工作，同时也参与大型CMS产品的重构工作，有良好的编码习惯。",
+			"dataIndex": 2
 		},
 		{
-			"company_name": "数沃信息科技有限公司",
+			"company_name": "中至集团",
 			"department_name": "",
 			"work_time": [
 				"2017.03",
 				"2017.05"
 			],
-			"work_desc": "前端实习生。使用 Vue 来实现平台功能和逻辑，再用 ECharts 来对数据挖掘分析后的可视化结果进行展示"
+			"work_desc": "前端实习生。使用 Vue 来实现平台功能和逻辑，再用 ECharts 来对数据挖掘分析后的可视化结果进行展示",
+			"dataIndex": 1
 		}
 	],
 	"skillList": [],
