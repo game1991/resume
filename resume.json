@@ -18,7 +18,7 @@
 		"email": "296813329@qq.com",
 		"mobile": "15527966819",
 		"github": "https://github.com/game1991",
-		"zhihu": "https://juejin.cn/user/1943592291283309/posts",
+		"juejin": "https://juejin.cn/user/1943592291283309/posts",
 		"workExpYear": "9年",
 		"workPlace": "武汉",
 		"positionTitle": "后端开发"
@@ -47,21 +47,17 @@
 		{
 			"award_info": "统信UCP研发工程师",
 			"award_time": "2021.06"
-		},
-		{
-			"award_info": "gin-swagger 生成RESTful风格OpenAPI文档:https://juejin.cn/post/6844904198211895303",
-			"award_time": "2020.06"
 		}
 	],
 	"workExpList": [
 		{
 			"company_name": "武汉兴图新科电子股份有限公司",
-			"department_name": "后端工程师",
+			"department_name": "研发部",
 			"work_time": [
 				"2017.05",
 				"2020.03"
 			],
-			"work_desc": "1.大型中台类产品研发 \r\n2. 独立负责开发微服务功能模块\n3. 协同其他部门服务间数据交互以及proto定义等，采用grpc同步调用以及rabbitmq异步消费等\n4. 熟悉Linux系统开发环境",
+			"work_desc": "1.大型中台类产品研发 \r\n2. 独立负责开发微服务功能模块\n3. 协同其他部门服务间数据交互以及proto定义等,采用grpc同步调用以及rabbitmq异步消费等\n4. 熟悉Linux系统开发环境",
 			"dataIndex": 3
 		},
 		{
@@ -71,47 +67,47 @@
 				"2020.03",
 				"2022.07"
 			],
-			"work_desc": "后端工程师。使用 golang 参与开发多类web产品的研发工作，同时也参与大型CMS产品的重构工作，有良好的编码习惯。",
+			"work_desc": "开发组长。使用 golang 参与开发多类web产品的研发工作,同时也参与大型CMS产品的重构工作,有良好的编码习惯。",
 			"dataIndex": 2
 		},
 		{
 			"company_name": "中至集团",
-			"department_name": "",
+			"department_name": "智慧办公",
 			"work_time": [
-				"2017.03",
-				"2017.05"
+				"2022.08",
+				null
 			],
-			"work_desc": "前端实习生。使用 Vue 来实现平台功能和逻辑，再用 ECharts 来对数据挖掘分析后的可视化结果进行展示",
+			"work_desc": "后端研发。负责公司的无纸化办公,OA、ERP、BPM等企业级系统。实现从零开始到完全落地,提供全方位一站式服务体系,分布式架构,高可用,高性能等。",
 			"dataIndex": 1
 		}
 	],
 	"skillList": [],
 	"projectList": [
 		{
-			"project_name": "数据作战室",
-			"project_role": "前端负责人",
-			"project_time": "2019.04 - 2020.06",
-			"project_desc": "面向总裁和高管以及决策 BI 的数字化经营决策和管理协同的数据产品。提供一站式的数据化经营决策和管理协同功能，让高管高效获取指标进展以及决策洞察，并提升管理效率。",
-			"project_content": "1. 独立负责产品从 0 到 1 的开发、产品功能迭代（在项目中具有推动项目进度的经验） 2. 产品体验精雕细琢的打磨 3. 建立稳定性保障机制。目前仍在迭代中，帮助提升高管业务决策效率"
+			"project_name": "微服务音视频转码服务",
+			"project_role": "后端开发",
+			"project_time": "2018.04 - 2019.06",
+			"project_desc": "作为公司整体架构中的一个组件应用,提供数据传输、内容转换、安全加密等业务中间件处理",
+			"project_content": "1. 独立负责产品研发从 0 到 1 、产品功能迭代（在项目中具有推动项目进度的经验） 2. 采用grpc同步调用、接口鉴权等提供稳定的数据传输以及安全 3. 建立稳定性保障机制。使用rabbitMQ进行异步消息订阅与发布,帮助提升整体系统架构的数据一致性和完备性"
 		},
 		{
-			"project_name": "DeepInsight",
-			"project_role": "可视分析负责人",
-			"project_time": "2018.07 - 2019.04 / 2020.07 - 至今",
-			"project_desc": "DeepInsight 是蚂蚁集团自主研发的自助式 BI 数据洞察分析平台，主要功能包括可视化看板搭建、智能分析、数据产品建站等。看板功能类似于火山引擎、PowerBI等产品。） ",
-			"project_content": "在该项目中主要负责可视化建设以及工程治理\n1. 主导开放能力建设，拉通产品、设计建设和扩展 40+ 可视化图形，提升丰富度\n2. 产品体验优化，尤其是对 ECharts 的体验顽疾进行攻克\n3. 主导可视化能力建设：业务标准化图表库建设、促进数据分析能力增强等可视化一体化建设。同时也是 AntV G2Plot 负责人，负责将可视化技术和业务相结合。"
+			"project_name": "统一登陆系统、开放平台系统、UOSID",
+			"project_role": "开发组长",
+			"project_time": "2020.08 - 2021.03",
+			"project_desc": "Union ID是提供统信系统用户网络账号,打通各业务系统,例如应用商店、官网论坛等。主要涉及的服务系统包括统一登陆服务、开放平台系统、身份认证系统等",
+			"project_content": "在该项目中主要负责从0开始设计系统架构\n1. 实现多方式登陆方式以及注册，例如微信、gitbub、手机号等快捷登录,轻松获客,迅速帮助公司初期完成几十万注册量\n2. 采用oauth2方式完全自主开发实现支持各业务系统的登陆以及数据获取\n3. 主导身份认证、开放平台搭建等系统开发，满足公司内部各业务部门的需求。"
 		},
 		{
-			"project_name": "G2、G2Plot",
+			"project_name": "OA、EHR、BPM",
 			"project_role": "核心开发者",
-			"project_time": "2019 - 至今",
-			"project_desc": "G2 是基于图形语法理论的可视化渲染引擎，G2Plot 是在 G2 基础上封装的开箱即用的统计可视化图表库",
+			"project_time": "2022.08 - 至今",
+			"project_desc": "企业办公软件，无纸化系统，一站式服务",
 			"project_content": "AntV 可视化建设，赋能整个蚂蚁和阿里集团统计可视化分析相关业务。负责 AntV G2、G2Plot、ThemeSet 主题构建器等开源项目的研发工作，同时服务蚂蚁内部所有使用 G2 栈的用户，提供可视化解决方案和定制可视化的协助。"
 		}
 	],
 	"workList": [],
 	"aboutme": {
-		"aboutme_desc": "🌱 有大型互联网分布式系统的架构设计和开发经验，拥抱新技术，有很强的学习能力。6年 Golang 开发经验，作为核心成员参与了多款企业级 B端产品，例如OA、ERP、BPM等，熟悉web开发。对 coding 有热情，对技术有追求，参与过万级星标开源项目的pull merge。在项目迭代，性能优化，疑难问题排查等方面都有可靠的攻坚能力。在公司内部组织过数次技术分享，并且主导codeview，提升开发效率，例如公共库sdk、cicd等。\n"
+		"aboutme_desc": "🌱有大型互联网分布式系统的架构设计和开发经验,拥抱新技术,有很强的学习能力。\n6年Golang开发经验,作为核心成员参与了多款企业级B端产品,例如OA、ERP、BPM等。\n熟悉web开发,对coding有热情,对技术有追求,参与过万级星标开源项目的pull merge。\n在项目迭代,性能优化,疑难问题排查等方面都有可靠的攻坚能力。\n在公司内部组织过数次技术分享,并且主导codeview,提升开发效率,例如公共库sdk、cicd等。\n"
 	},
 	"theme": {
 		"color": "#2f5785",
