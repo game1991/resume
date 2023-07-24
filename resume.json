@@ -19,7 +19,7 @@
 		"mobile": "15527966819",
 		"github": "https://github.com/game1991",
 		"juejin": "https://juejin.cn/user/1943592291283309/posts",
-		"workExpYear": "9年",
+		"_workExpYear": "9年",
 		"workPlace": "武汉",
 		"positionTitle": "后端开发"
 	},
@@ -51,14 +51,14 @@
 	],
 	"workExpList": [
 		{
-			"company_name": "武汉兴图新科电子股份有限公司",
-			"department_name": "研发部",
+			"company_name": "中至集团",
+			"department_name": "智慧办公",
 			"work_time": [
-				"2017.05",
-				"2020.03"
+				"2022.08",
+				null
 			],
-			"work_desc": "1.大型中台类产品研发 \r\n2. 独立负责开发微服务功能模块\n3. 协同其他部门服务间数据交互以及proto定义等,采用grpc同步调用以及rabbitmq异步消费等\n4. 熟悉Linux系统开发环境",
-			"dataIndex": 3
+			"work_desc": "后端研发。负责公司的无纸化办公,OA、ERP、BPM等企业级系统。实现从零开始到完全落地,提供全方位一站式服务体系,分布式架构,高可用,高性能等。",
+			"dataIndex": 1
 		},
 		{
 			"company_name": "统信软件技术有限公司",
@@ -71,24 +71,45 @@
 			"dataIndex": 2
 		},
 		{
-			"company_name": "中至集团",
-			"department_name": "智慧办公",
+			"company_name": "武汉兴图新科电子股份有限公司",
+			"department_name": "研发部",
 			"work_time": [
-				"2022.08",
-				null
+				"2017.05",
+				"2020.03"
 			],
-			"work_desc": "后端研发。负责公司的无纸化办公,OA、ERP、BPM等企业级系统。实现从零开始到完全落地,提供全方位一站式服务体系,分布式架构,高可用,高性能等。",
-			"dataIndex": 1
+			"work_desc": "1.大型中台类产品研发 \r\n2. 独立负责开发微服务功能模块\n3. 协同其他部门服务间数据交互以及proto定义等,采用grpc同步调用以及rabbitmq异步消费等\n4. 熟悉Linux系统开发环境",
+			"dataIndex": 3
 		}
 	],
-	"skillList": [],
+	"skillList": [
+		{
+			"skill_name": "Golang 和 Python",
+			"skill_desc": "中大型后端项目经验以及公共库开发经验",
+			"skill_level": 90
+		},
+		{
+			"skill_name": "MySQL 和 PostgreSQL",
+			"skill_desc": "熟悉各类数据库功能使用，例如视图、存储过程",
+			"skill_level": 85
+		},
+		{
+			"skill_name": "Redis/MQ",
+			"skill_desc": "",
+			"skill_level": 80
+		},
+		{
+			"skill_name": "Docker/CICD",
+			"skill_desc": "",
+			"skill_level": 75
+		}
+	],
 	"projectList": [
 		{
-			"project_name": "微服务音视频转码服务",
-			"project_role": "后端开发",
-			"project_time": "2018.04 - 2019.06",
-			"project_desc": "作为公司整体架构中的一个组件应用,提供数据传输、内容转换、安全加密等业务中间件处理",
-			"project_content": "1. 独立负责产品研发从 0 到 1 、产品功能迭代（在项目中具有推动项目进度的经验） 2. 采用grpc同步调用、接口鉴权等提供稳定的数据传输以及安全 3. 建立稳定性保障机制。使用rabbitMQ进行异步消息订阅与发布,帮助提升整体系统架构的数据一致性和完备性"
+			"project_name": "OA、EHR、BPM",
+			"project_role": "核心开发者",
+			"project_time": "2022.08 - 至今",
+			"project_desc": "企业办公软件，无纸化系统，一站式服务",
+			"project_content": "企业内部协同可视化建设,搭建整个中至集团企业办公相关业务。负责SSO、OA、EHR、BPM主题等办公项目的研发工作,同时提供内部接口访问安全以及账号权限管理。实现采用了动态表单、流程引擎、RBAC权限控制、casbin、登陆安全(双因素2AF验证)、敏感数据RSA加密安全传输等技术"
 		},
 		{
 			"project_name": "统一登陆系统、开放平台系统、UOSID",
@@ -98,11 +119,11 @@
 			"project_content": "在该项目中主要负责从0开始设计系统架构\n1. 实现多方式登陆方式以及注册，例如微信、gitbub、手机号等快捷登录,轻松获客,迅速帮助公司初期完成几十万注册量\n2. 采用OAuth2.0方式完全自主开发实现支持各业务系统的登陆以及数据获取\n3. 主导身份认证、开放平台搭建等系统开发，满足公司内部各业务部门的需求。"
 		},
 		{
-			"project_name": "OA、EHR、BPM",
-			"project_role": "核心开发者",
-			"project_time": "2022.08 - 至今",
-			"project_desc": "企业办公软件，无纸化系统，一站式服务",
-			"project_content": "企业内部协同可视化建设,搭建整个中至集团企业办公相关业务。负责SSO、OA、EHR、BPM主题等办公项目的研发工作,同时提供内部接口访问安全以及账号权限管理。实现采用了动态表单、流程引擎、RBAC权限控制、casbin、登陆安全(双因素2AF验证)、敏感数据RSA加密安全传输等技术"
+			"project_name": "微服务音视频转码服务",
+			"project_role": "后端开发",
+			"project_time": "2018.04 - 2019.06",
+			"project_desc": "作为公司整体架构中的一个组件应用,提供数据传输、内容转换、安全加密等业务中间件处理",
+			"project_content": "1. 独立负责产品研发从 0 到 1 、产品功能迭代（在项目中具有推动项目进度的经验） 2. 采用grpc同步调用、接口鉴权等提供稳定的数据传输以及安全 3. 建立稳定性保障机制。使用rabbitMQ进行异步消息订阅与发布,帮助提升整体系统架构的数据一致性和完备性"
 		}
 	],
 	"workList": [],
